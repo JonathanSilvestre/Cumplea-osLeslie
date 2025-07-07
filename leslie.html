@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños Princesa!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="birthday-page">
+    <div class="container">
+        <div class="birthday-content">
+            <h1 class="birthday-title">🎉 ¡Feliz Cumpleaños Princesa! 🎂</h1>
+            <div class="birthday-poem">
+            <h2>💖Tú, mi razón de celebrar💖</h2>
+            <p>
+                💕Hoy el mundo se viste de fiesta,<br>
+                porque tu risa lo manifiesta.<br>
+                Y el cielo, al verte despertar,<br>
+                pinta de luz todo tu andar.
+            </p>
+            <p>
+                No es solo un año el que celebramos,<br>
+                es cada instante que juntos amamos.<br>
+                Cada mirada, cada caricia,<br>
+                cada palabra que fue delicia.
+            </p>
+            <p>
+                Desde que llegaste, todo cambió,<br>
+                mi vida entera se iluminó.<br>
+                Eres mi sueño hecho verdad,<br>
+                mi paz, mi risa, mi eternidad.
+            </p>
+            <p>
+                Hoy brindo por ti, por tu existir,<br>
+                por cada beso que está por venir,<br>
+                por los abrazos que aún nos esperan,<br>
+                por las promesas que nos esperan.
+            </p>
+            <p>
+                Feliz cumpleaños, mi dulce amor,<br>
+                mi vida, mi musa, mi gran motor.<br>
+                Que cada deseo se vuelva canción,<br>
+                y que este amor sea tu bendición. 💕
+            </p>
+            </div>
+            <div class="birthday-message">
+            <p>¡Espero que tengas un día maravilloso lleno de alegría y sorpresas!</p>
+            <p>Que este nuevo año de vida te traiga muchas bendiciones y momentos felices.</p>
+
+            </div>
+            
+            <div class="birthday-animation">
+            <div class="balloon balloon1">🎈</div>
+            <div class="balloon balloon2">🎈</div>
+            <div class="balloon balloon3">🎈</div>
+            <div class="cake">🎂</div>
+            <div class="confetti">🎊</div>
+            </div>
+            
+            <div class="birthday-wishes">
+            <h3>🌟 Mis mejores deseos para ti 🌟</h3>
+            <ul>
+                <li>Que todos tus sueños se hagan realidad</li>
+                <li>Que la felicidad te acompañe siempre</li>
+                <li>Que tengas un año lleno de aventuras</li>
+                <li>Que cada día sea mejor que el anterior</li>
+            </ul>
+            </div>
+            <div class="birthday-image-container">
+            <img src="IMG/FelizCumple.jpg" alt="Feliz Cumpleaños" class="birthday-image">
+            <div class="hearts-animation">
+                <span class="heart heart1">💖</span>
+                <span class="heart heart2">💗</span>
+                <span class="heart heart3">💓</span>
+                <span class="heart heart4">💞</span>
+                <span class="heart heart5">💝</span>
+            </div>
+            </div>
+            <style>
+            .birthday-image-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+            }
+            .birthday-image {
+            width: 300px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(255,0,100,0.2);
+            }
+            .hearts-animation {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 0;
+            height: 0;
+            pointer-events: none;
+            }
+            .heart {
+            position: absolute;
+            font-size: 2.5rem;
+            opacity: 0.8;
+            animation: floatHeart 2.5s infinite;
+            }
+            .heart1 { left: -60px; top: 30px; animation-delay: 0s; }
+            .heart2 { left: 80px; top: 60px; animation-delay: 0.5s; }
+            .heart3 { left: -30px; top: 100px; animation-delay: 1s; }
+            .heart4 { left: 100px; top: 10px; animation-delay: 1.5s; }
+            .heart5 { left: 20px; top: 120px; animation-delay: 2s; }
+
+            @keyframes floatHeart {
+            0% { transform: translateY(0) scale(1); opacity: 0.8; }
+            50% { transform: translateY(-40px) scale(1.2); opacity: 1; }
+            100% { transform: translateY(-80px) scale(1); opacity: 0; }
+            }
+            </style>
+            <div class="birthday-songs-section">
+            <h3>Aquí algunas canciones para ti <span style="font-size:1.5em;">(UwU)</span></h3>
+            <div class="songs-images-container">
+                <img src="IMG/CamaradeFaltas.jpg" alt="Canción 1" class="song-image">
+                <img src="IMG/Elemento.jpg" alt="Canción 2" class="song-image">
+                <img src="IMG/LaQueMeGusta.jpg" alt="Canción 3" class="song-image">
+                <img src="IMG/MeHaceTantoBien.jpg" alt="Canción 4" class="song-image">
+                <img src="IMG/MiBelloAngel.jpg" alt="Canción 5" class="song-image">
+                <img src="IMG/PielCanela.jpg" alt="Canción 6" class="song-image">
+                <img src="IMG/Sueña.jpg" alt="Canción 7" class="song-image">
+            </div>
+            </div>
+            <style>
+            .songs-images-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: center;
+            margin: 16px 0;
+            }
+            .song-image {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(255,0,100,0.15);
+            margin-bottom: 0;
+            }
+            </style>
+        <button onclick="location.href='index.html'" class="back-btn">Volver al inicio</button>
+        </div>
+    </div>
+    
+    
+    <script>
+        // Animación de confetti
+        function createConfetti() {
+            const confetti = document.createElement('div');
+            confetti.classList.add('confetti-piece');
+            confetti.style.left = Math.random() * 100 + '%';
+            confetti.style.animationDuration = Math.random() * 3 + 2 + 's';
+            confetti.style.opacity = Math.random();
+            confetti.innerHTML = ['🎊', '🎉', '✨', '🌟'][Math.floor(Math.random() * 4)];
+            document.body.appendChild(confetti);
+            
+            setTimeout(() => {
+                confetti.remove();
+            }, 5000);
+        }
+        
+        // Crear confetti cada segundo
+        setInterval(createConfetti, 1000);
+    </script>
+</body>
+</html>
